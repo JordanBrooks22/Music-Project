@@ -20,6 +20,7 @@ function dataDisplay(data){
            " <tr> " +
                    " <td>"+data[i].title+"</td>" + 
                    " <td>"+data[i].album+"</td>" + 
+                   " <td>"+data[i].artist+"</td>" +
                    " <td>"+data[i].genre+"</td>" + 
                    " <td>"+data[i].releaseDate+"</td>" + 
                 " </tr>"
