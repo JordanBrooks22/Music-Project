@@ -1,6 +1,8 @@
 "use strict";
 
-function musicRequest(){
+$(document).ready(musicRequest)
+
+function musicRequest() {
      $.ajax({
             url: "http://www.devcodecampmusiclibrary.com/api/music", 
             type: "GET",
